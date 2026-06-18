@@ -3,6 +3,6 @@
 #### 💻 Temas abordados durante o curso foram: 🚀
 - [Seção 01 - Apresentação](https://github.com/romulovieira777/Computacao_Em_Nuvem_Cloud_Computing_Essencial/tree/main/Secao_01_Apresentacao)
 - [Seção 02 - Introdução à Computação em Nuvem](https://github.com/romulovieira777/Computacao_Em_Nuvem_Cloud_Computing_Essencial/tree/main/Secao_02_Introducao_A_Computacao_Em_Nuvem)
-- [Seção 03 - Amazon Web Services (AWS)]()
+- [Seção 03 - Amazon Web Services (AWS)](https://github.com/romulovieira777/Computacao_Em_Nuvem_Cloud_Computing_Essencial/tree/main/Secao_03_Amazon_Web_Services_AWS)
 
 Link para o Curso: [Udemy]()
