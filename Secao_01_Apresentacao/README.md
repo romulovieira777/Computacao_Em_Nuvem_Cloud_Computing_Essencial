@@ -71,6 +71,3 @@ Esta seção fornece a introdução ao curso: apresentação do instrutor, objet
 - Introdução (Wikipedia — Cloud computing): https://en.wikipedia.org/wiki/Cloud_computing
 
 ---
-
-> Atualize este arquivo com notas pessoais, links adicionais e exercícios conforme o curso avançar.
-
