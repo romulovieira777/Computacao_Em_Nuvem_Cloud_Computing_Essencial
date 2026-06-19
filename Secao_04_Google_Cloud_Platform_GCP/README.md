@@ -33,6 +33,30 @@ O material destaca que a plataforma surgiu aproveitando a experiência e o suces
 
 A GCP oferece serviços de infraestrutura, plataforma e soluções gerenciadas para armazenamento, computação, rede, dados e inteligência artificial. Nesta aula introdutória, o foco é mais conceitual: apresentar a plataforma, sua origem e como começar a acessá-la.
 
+## Principais serviços da GCP
+
+- Computação:
+  - **Compute Engine** — máquinas virtuais na nuvem.
+  - **Google Kubernetes Engine (GKE)** — orquestração gerenciada de containers com Kubernetes.
+  - **Cloud Run** — execução serverless para containers.
+  - **App Engine** — plataforma gerenciada para publicar aplicações.
+
+- Armazenamento e bancos de dados:
+  - **Cloud Storage** — armazenamento de objetos escalável.
+  - **Cloud SQL** — bancos relacionais gerenciados, como MySQL e PostgreSQL.
+  - **Firestore** — banco NoSQL para aplicações web e mobile.
+  - **BigQuery** — data warehouse e análise de grandes volumes de dados.
+
+- Rede e entrega:
+  - **Virtual Private Cloud (VPC)** — redes privadas isoladas na nuvem.
+  - **Cloud Load Balancing** — distribuição de tráfego entre aplicações.
+  - **Cloud DNS** — gerenciamento de DNS.
+
+- Segurança e observabilidade:
+  - **Identity and Access Management (IAM)** — controle de acesso e permissões.
+  - **Cloud Monitoring** — métricas, alertas e observabilidade.
+  - **Cloud Logging** — coleta e análise de logs.
+
 ## Sugestões de estudo e prática
 
 1. Acesse o site oficial da GCP e navegue pela página inicial.
