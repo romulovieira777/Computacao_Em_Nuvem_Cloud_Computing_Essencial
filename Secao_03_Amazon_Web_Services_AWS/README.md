@@ -91,3 +91,95 @@ Considere proximidade de região ao armazenar dados sensíveis e otimizar latên
 - AWS Well-Architected Framework: https://aws.amazon.com/architecture/well-architected/
 
 ---
+
+# Section 03 — Amazon Web Services (AWS)
+
+This README summarizes the essential points about Amazon Web Services (AWS) presented in the lesson and organizes materials and activities for practical study.
+
+## Learning objectives
+
+- Understand what AWS is and its position in the cloud market.
+- Learn about the global infrastructure (Regions, Availability Zones) and how it affects architectures.
+- Identify core services for compute, storage, databases, networking, and security.
+- Learn the concepts of shared responsibility, pricing models, and basic best practices.
+
+## Overview
+
+AWS is a cloud services platform offered by Amazon, with a broad portfolio covering IaaS, PaaS, and managed services. It is a market leader and serves everyone from startups to large enterprises.
+
+## Global infrastructure
+
+- Regions: geographic locations where AWS operates (e.g., us-east-1, eu-west-1).
+- Availability Zones (AZs): isolated data centers within regions for high availability.
+- Edge Locations: points of presence used by CloudFront and low-latency services.
+
+Consider region proximity when storing sensitive data and optimizing latency.
+
+## Main services (summary)
+
+- Compute:
+  - Amazon EC2 — configurable virtual machines.
+  - AWS Lambda — serverless functions.
+  - Amazon ECS / EKS — managed containers (ECS for containers, EKS for Kubernetes).
+
+- Storage and content:
+  - Amazon S3 — durable and scalable object storage.
+  - Amazon EBS — block storage for EC2.
+  - Amazon EFS — file system available to multiple instances.
+  - Amazon CloudFront — CDN for content delivery.
+
+- Databases:
+  - Amazon RDS — managed relational databases (MySQL, PostgreSQL, SQL Server, etc.).
+  - Amazon DynamoDB — managed NoSQL database with low latency.
+  - Amazon Aurora — compatible and optimized relational database.
+
+- Networking and application delivery:
+  - Amazon VPC — isolated virtual network.
+  - Elastic Load Balancer (ALB/NLB) — load balancing.
+  - Amazon Route 53 — DNS and routing.
+
+- Security and identity:
+  - AWS IAM — user, permission, and role management.
+  - AWS KMS — cryptographic key management.
+  - AWS Shield / WAF — attack protection and traffic filtering.
+
+- Observability and operations:
+  - Amazon CloudWatch — metrics, logs, and alarms.
+  - AWS CloudTrail — API call auditing.
+
+## Shared responsibility model
+
+- Provider (AWS): security of the cloud — physical infrastructure, hardware, virtualization, and core services.
+- Customer: security in the cloud — service configuration, identity management, data encryption, and access policies.
+
+## Costs and pricing (brief)
+
+- Pay-as-you-go model: pay for what you use.
+- Free Tier offers limited resources for testing.
+- Reserved Instances and Savings Plans help reduce costs for predictable workloads.
+- Tools: AWS Pricing Calculator and Cost Explorer.
+
+## Quick best practices
+
+- Use multiple AZs for high availability.
+- Do not use root credentials — create users/roles with least-privilege permissions.
+- Make regular backups (snapshots, S3 versioning).
+- Monitor costs and set alerts for unusual usage.
+- Enable logs and auditing through CloudTrail.
+
+## Suggested activities and exercises
+
+1. Create a free-tier AWS account and explore the Console.
+2. Host a static website on Amazon S3 + CloudFront.
+3. Launch a Linux EC2 instance (t2.micro/t3.micro), connect via SSH, and install a simple web server.
+4. Implement a simple function with AWS Lambda and test it via the console or API Gateway.
+5. Set up an RDS database (MySQL or PostgreSQL) and connect to it from an EC2 instance in the same VPC.
+6. Create IAM policies with minimal permissions for a user who only has read access to S3.
+7. Use the AWS Pricing Calculator to estimate the cost of a small environment (1 EC2 + 1 RDS + S3).
+
+## Resources and references
+
+- AWS official documentation: https://aws.amazon.com/documentation/
+- Getting Started: https://aws.amazon.com/getting-started/
+- Free Tier: https://aws.amazon.com/free/
+- AWS Well-Architected Framework: https://aws.amazon.com/architecture/well-architected/
