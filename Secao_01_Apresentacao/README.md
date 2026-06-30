@@ -71,3 +71,75 @@ Esta seção fornece a introdução ao curso: apresentação do instrutor, objet
 - Introdução (Wikipedia — Cloud computing): https://en.wikipedia.org/wiki/Cloud_computing
 
 ---
+
+# Section 01 — Introduction
+
+> Notes, summary, and support material for Section 01 (Introduction) of the course "Cloud Computing: Essential".
+
+![Section 01 Cover](Geek_University_Computacao_Em_Nuvem_Essencial.png)
+
+## Overview
+
+This section introduces the course: the instructor presentation, course goals, lesson format, and an overview of core cloud computing concepts.
+
+## Section objectives
+
+- Present the scope and goals of the course.
+- Familiarize the learner with basic cloud terminology.
+- Show the structure of the upcoming sections and the activity format.
+- Encourage study through real cloud use cases and benefits.
+
+## Topics covered
+
+- Welcome and instructor introduction
+- Course goals and audience
+- Course structure (theory, demos, exercises)
+- Initial concepts: cloud computing, regions, zones, instances
+- Service models: IaaS, PaaS, SaaS (overview)
+- Deployment models: public, private, hybrid
+- Benefits: scalability, elasticity, cost reduction, agility
+- Additional resources and materials
+
+## Lesson summary
+
+1. Opening with the instructor introduction and motivation to learn about cloud.
+2. Learning goals: understand service models, deployment models, and cloud advantages.
+3. Quick explanation of basic terms (instance, region, availability, scale).
+4. Overview of upcoming content and study recommendations.
+
+## Key concepts (quick definitions)
+
+- Cloud computing: delivery of computing resources on demand over the internet.
+- IaaS (Infrastructure as a Service): provides infrastructure resources (VMs, network, storage).
+- PaaS (Platform as a Service): managed platform for application development and execution.
+- SaaS (Software as a Service): ready-to-use applications accessed via the internet.
+- Region/Zone: physical and logical locations where cloud providers operate.
+- Elasticity vs. scalability: elasticity is automatic adjustment based on demand; scalability is the ability to grow (vertically or horizontally).
+
+## Section materials
+
+- Presentation image: `Geek_University_Computacao_Em_Nuvem_Essencial.png`
+- This README (general notes)
+- Space to add links, exercises, and timestamps as they become available.
+
+## Notes / timestamps (fill in during the lesson)
+
+- 00:00 — Opening
+- 02:30 — Course objectives
+- 06:10 — Service models (IaaS/PaaS/SaaS)
+- 10:45 — Deployment models
+- 14:00 — Recommendations and next steps
+
+> Tip: replace the timestamps above with the actual lesson minutes as you watch it.
+
+## How to follow and study
+
+1. Watch the lesson and write down unfamiliar terms.
+2. Review the main definitions and look for practical examples (AWS, Azure, GCP).
+3. Practice finding provider interfaces and understanding where regions and zones are located.
+4. Mark questions and compare them with later lessons to reinforce the concepts.
+
+## Useful references
+
+- Course (Udemy): https://www.udemy.com/course/computacao-em-nuvem-essencial/
+- Introduction (Wikipedia — Cloud computing): https://en.wikipedia.org/wiki/Cloud_computing
